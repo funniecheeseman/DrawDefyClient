@@ -1,0 +1,31 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c2c; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000; /* Color of the thumb on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Make scrollbar thin */
+  scrollbar-color: #000000 #2c2c2c; /* Thumb color and track color */
+}
